@@ -9,6 +9,15 @@
     background-position: center top;
 }
 
+#map2 {
+    overflow-y: hidden;
+    font-family: 'Roboto';
+    background-image: url('pictures/destinationMap.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+}
+
 #search_menu {
     height: 100vh;
     width: auto;
@@ -94,17 +103,6 @@ input[type=text] {
     padding-left,
     padding-right: 32px;
     border-radius: 27px;
-    color: #0000ff;
-}
-
-#rounded:hover {
-    padding-top,
-    padding-bottom: 16px;
-    padding-left,
-    padding-right: 32px;
-    border-radius: 27px;
-    color: #FFFFFF;
-    transition: 0.4s;
 }
 
 #roundedDark {
@@ -116,7 +114,34 @@ input[type=text] {
     box-shadow: 0 6px 20px 0 rgba(49, 67, 123, 0.3);
 }
 
-.text-secondary {
+#boxShadow {
+    box-shadow: 0 6px 20px 0 rgba(49, 67, 123, 0.3);
+}
+
+.dot {
+    height: 53.6px;
+    width: 53.6px;
+    background-color: #0045ff;
+    border-radius: 50%;
+    border: none;
+}
+
+#selectDest {
+    font-family: Roboto;
     font-size: 16px;
-    color: #9b9bac;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    color: #0000ff;
+}
+
+#confirmDest {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    color: #ffffff;
 }
