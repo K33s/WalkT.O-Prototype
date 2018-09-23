@@ -192,3 +192,15 @@ input[type=text] {
     height: 87px;
     color: #2b2b2b;
 }
+.plus {
+    background-image: url('pictures/logo_grey.png');
+    background-size: 47px;
+    height: 53px;
+    background-repeat: no-repeat;
+}
+.plus.minus {
+    background-image: url('pictures/logo.png');
+    background-size: 47px;
+    height: 53px;
+    background-repeat: no-repeat;
+}
