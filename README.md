@@ -8,6 +8,6 @@ Description: WalkTO is a platform aimed towards making the streets of Toronto sa
 
 Link to live Invisioned prototype - https://invis.io/SCO79BMDYRW
 
-Link to repository's web based prototype - https://keenands.github.io/Elevate-Hackathon/
+Link to repository's web based prototype - https://keenands.github.io/WalkT.O-Prototype/
 
 !Prototype is a mobile application only!
