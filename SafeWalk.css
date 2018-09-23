@@ -2,14 +2,17 @@ body {
     padding: 0px;
     margin: 0px;
 }
+
 h3 {
     font-family: 'Roboto';
     font-weight: normal;
     font-size: 22px;
 }
+
 p {
     margin: 0px;
 }
+
 #map {
     overflow-y: hidden;
     padding: 0px;
@@ -20,6 +23,7 @@ p {
     background-attachment: fixed;
     background-position: center top;
 }
+
 #map2 {
     overflow-y: hidden;
     font-family: 'Roboto';
@@ -28,6 +32,7 @@ p {
     background-attachment: fixed;
     background-position: center top;
 }
+
 #map3 {
     overflow-y: hidden;
     font-family: 'Roboto';
@@ -36,42 +41,45 @@ p {
     background-attachment: fixed;
     background-position: center top;
 }
+
 #walkie {
     float: left;
     position: relative;
 }
+
 #search_menu {
     height: 100vh;
     width: auto;
 }
+
 #contain {
     top: 5%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     display: inline-table;
     position: absolute;
 }
+
 input[type=text] {
     color: #bfbfbf;
     background-color: #2b2b2b;
     background-position: 10px 10px;
     background-repeat: no-repeat;
     border-radius: 42px;
-    -webkit-box-shadow: 0 6px 20px 0 rgba(49, 67, 123, 0.3);
     box-shadow: 0 6px 20px 0 rgba(49, 67, 123, 0.3);
     padding: 18px 76px;
     font-size: 16px;
     text-align: center;
 }
+
 #prnt {
     height: 100vh;
     width: auto;
 }
+
 #chld {
     top: 90%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     display: inline-table;
     position: absolute;
@@ -84,6 +92,7 @@ input[type=text] {
     height: 87px;
     background-color: #464650;
 }
+
 .infoText {
     padding-bottom: 33.9px;
     padding-top: 34.9px;
@@ -91,6 +100,7 @@ input[type=text] {
     height: 87px;
     color: white;
 }
+
 .btn1 {
     position: relative;
     width: 50px;
@@ -108,6 +118,7 @@ input[type=text] {
     text-align: justify;
     margin: 10px;
 }
+
 .btn2 {
     position: relative;
     left: 10px;
@@ -125,6 +136,7 @@ input[type=text] {
     color: white;
     text-align: justify;
 }
+
 .textLink {
     position: relative;
     display: inline;
@@ -134,12 +146,14 @@ input[type=text] {
     color: #2b2b2b;
     text-align: justify;
 }
+
 #search {
     position: absolute;
     left: 8%;
     top: 33%;
     z-index: 2;
 }
+
 #rounded {
     padding-top,
     padding-bottom: 16px;
@@ -147,19 +161,41 @@ input[type=text] {
     padding-right: 32px;
     border-radius: 27px;
 }
+
 #roundedDark {
     padding-top,
     padding-bottom: 16px;
     padding-left,
     padding-right: 32px;
     border-radius: 27px;
-    -webkit-box-shadow: 0 6px 20px 0 rgba(49, 67, 123, 0.3);
     box-shadow: 0 6px 20px 0 rgba(49, 67, 123, 0.3);
 }
+
+#roundedDark2 {
+    width: 242.8px;
+    height: 51px;
+    border-radius: 27px;
+    background-color: #2b2b2b;
+    box-shadow: 0 6px 10px 0 rgba(49, 67, 123, 0.3);
+    padding-top: 12px;
+}
+
+#roundedDark2 {
+    padding-top,
+    padding-bottom: 16px;
+    padding-left,
+    padding-right: 32px;
+    border-radius: 27px;
+    box-shadow: 0 6px 20px 0 rgba(49, 67, 123, 0.3);
+    height: 51px;
+    width: 242.8px;
+}
+
 #boxShadow {
     -webkit-box-shadow: 0 6px 20px 0 rgba(49, 67, 123, 0.3);
     box-shadow: 0 6px 20px 0 rgba(49, 67, 123, 0.3);
 }
+
 .dot {
     height: 53.6px;
     width: 53.6px;
@@ -167,6 +203,7 @@ input[type=text] {
     border-radius: 50%;
     border: none;
 }
+
 #selectDest {
     font-family: Roboto;
     font-size: 16px;
@@ -176,6 +213,7 @@ input[type=text] {
     line-height: normal;
     color: #0000ff;
 }
+
 #confirmDest {
     font-family: Roboto;
     font-size: 16px;
@@ -185,10 +223,52 @@ input[type=text] {
     line-height: normal;
     color: #ffffff;
 }
+
 .infoText2 {
     padding-bottom: 33.9px;
     padding-top: 34.9px;
     padding-left: 30px;
     height: 87px;
     color: #2b2b2b;
+}
+
+#center_text {
+    font-family: Roboto;
+    color: #4c4c4c;
+    width: 450px;
+    height: 64px;
+    size: 22px;
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    padding-left: 67.8px;
+    padding-top: 60.2px;
+    padding-right: 78.2px;
+    display: inline-block;
+}
+
+#blue_text {
+    size: 16px;
+    font-family: Roboto;
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #0000ff;
+    width: 229px;
+    height: 32px;
+    display: block;
+}
+
+#txtbox {
+    width: 360px;
+    height: 123.3px;
+    border: solid 2px #2b2b2b;
+    display: block;
+    color: #2b2b2b;
+    text-align: left;
+    padding-left: 16px;
+}
+
+::placeholder {
+    color: grey;
 }
