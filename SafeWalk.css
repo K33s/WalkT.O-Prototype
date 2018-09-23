@@ -272,3 +272,43 @@ input[type=text] {
 ::placeholder {
     color: grey;
 }
+
+#img {
+    width: 64px;
+    height: 72px;
+    object-fit: contain;
+    padding-bottom: 380.3px;
+    padding-left: 174.8px;
+    padding-right: 175.2px;
+    padding-top: 283.7px;
+}
+
+.container {
+    padding-left: 25%;
+    display: block;
+
+}
+
+#center_text2 {
+    width: 259px;
+    height: 52px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: #4c4c4c;
+}
+
+#greytxt {
+    width: 207px;
+    height: 32px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #9b9bac;
+    padding-bottom: 283.3px;
+    padding-left: 103.3px;
+    padding-right: 103.7px;
+    padding-top: 420.7px;
+}
